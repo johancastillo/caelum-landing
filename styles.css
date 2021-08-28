@@ -44,6 +44,24 @@ h1, h2, h3, h4, h5{
     font-family: "Bariol Bold";
 }
 
+b{
+    font-family: "Bariol Bold"
+}
+
+/* 
+##########
+# Navbar #
+##########
+*/
+.navbar-mobile{
+    display: none;
+}
+
+.navbar-desktop{
+    display: block;
+    background: #fff !important;
+}
+
 /* 
 #####################
 # Header Components #
@@ -51,7 +69,7 @@ h1, h2, h3, h4, h5{
 */
 
 .header{
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .banner-video-desktop{
@@ -62,6 +80,14 @@ h1, h2, h3, h4, h5{
     width: 100%;
 }
 
+.box-video{
+    position: relative;
+}
+
+.box-video .resource{
+    position: absolute;
+    bottom: 0;
+}
 
 /* 
 #################
@@ -69,7 +95,7 @@ h1, h2, h3, h4, h5{
 #################
 */
 .about-img{
-    width: 100%;
+    width: 94%;
     border-radius: 50%;
 }
 
@@ -78,6 +104,26 @@ h1, h2, h3, h4, h5{
     flex-direction: column;
     padding: 0 20px;
     justify-content: center;
+}
+
+.about-section{
+    padding-left: 96px;
+}
+
+.about-section h4{
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.about-section p{
+    padding-right: 130px;
+    font-size: 18px;
+}
+
+.about-section .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 
@@ -96,11 +142,12 @@ h1, h2, h3, h4, h5{
     background-size: cover;
     background-attachment: fixed;
     padding: 30px;
-    height: 418px;
+    height: 258px;
 }
 
 .banner-parallax h3{
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
 }
 
 /* 
@@ -180,13 +227,21 @@ h1, h2, h3, h4, h5{
 }
 
 .vision-section .content{
-    padding: 60px;
+    padding: 60px 290px 60px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     align-items: flex-start;
-    height: 400px;
+    height: 515px;
+}
+
+.vision-section .content h3{
+    font-size: 40px;
+}
+
+.vision-section .content p{
+    font-size: 20px;
 }
 
 
@@ -267,6 +322,46 @@ h1, h2, h3, h4, h5{
   .col-white-space{
       display: none !important;
   }
+
+  /* 
+##########
+# Navbar #
+##########
+*/
+
+.navbar-mobile{
+    display: block;
+}
+
+.navbar-desktop{
+    display: none;
+}
+
+
+  /* 
+########################
+# About Section Mobile #
+########################
+*/
+
+  .about-section{
+    padding-left: 0px;
+    }
+
+    .about-section p{
+        padding: 0 20px;
+    }
+
+    .about-section h4{
+        padding: 0 20px;
+    }
+
+    .about-img {
+        width: 82%;
+        border-radius: 50%;
+        margin-top: 24px;
+    }
+
 }
 
 

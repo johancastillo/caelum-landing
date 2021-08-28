@@ -3,7 +3,7 @@ let videoMobile = document.getElementById("banner-video-mobile")
 let videoDesktop = document.getElementById("banner-video-desktop")
 let preloader = document.getElementById("preloader-box")
 
-
+document.body.style.overflow = "hidden"
 
 
 addEventListener("DOMContentLoaded", () => {
@@ -18,6 +18,7 @@ addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
         preloader.style.display = "none";
-    }, 1500)
+        document.body.style.overflow = "auto"        
+    }, 1200)
 
 })
