@@ -244,6 +244,9 @@ b{
     font-size: 20px;
 }
 
+.vision-section-mobile{
+    display: none;
+}
 
 /* 
 ####################
@@ -357,6 +360,23 @@ b{
         border-radius: 50%;
         margin-top: 24px;
     }
+
+
+  /* 
+##########
+# Vision #
+##########
+*/
+
+
+    .vision-section-desktop{
+        display: none;
+    }
+
+    .vision-section-mobile{
+        display: block;
+    }
+
 
 }
 

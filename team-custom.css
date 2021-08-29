@@ -72,7 +72,7 @@
   }
   
   .img-background-one{
-    background-image: url("./assets/images/team/maria-jesus-img.jpg");
+    background-image: url("./assets/images/team/maria-jesus-img.png");
     width: 50%;
     height: 800px;
     background-size: cover;
@@ -90,7 +90,7 @@
   }
   
   .img-background-two{
-    background-image: url("./assets/images/team/carlos-sandoval-img.jpg");
+    background-image: url("./assets/images/team/carlos-sandoval-img.png");
     width: 50%;
     height: 800px;
     background-size: cover;
