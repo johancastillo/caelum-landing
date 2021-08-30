@@ -126,6 +126,7 @@ b{
 
 .box-video .resource{
     position: absolute;
+    left: 0;
     bottom: 0;
 }
 
@@ -301,6 +302,12 @@ b{
     display: none;
 }
 
+.vision-section-mobile h3{
+    color: #01a6cf;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
 /* 
 ####################
 # Services Section #
@@ -356,6 +363,10 @@ b{
     align-items: center;
 }
 
+.image-gallery .content img{
+    width: 400px;
+    height: auto;
+}
 
 /* 
 #################
@@ -434,6 +445,16 @@ b{
         display: block;
     }
 
+    .skills-section .item1, .skills-section .item2, .skills-section .item3 {
+        padding: 0 50px;
+    }
+
+
+
+    .image-gallery .content img{
+        width: 80%;
+        height: auto;
+    }
 
 }
 

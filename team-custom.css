@@ -155,6 +155,10 @@ div.scrollmenu a:hover {
   .carousel-mobile .scrollmenu{
     width: 100% !important;
   }
+
+  .carousel-mobile{
+    padding: 24px;
+  }
   
   @media screen and (max-width: 800px){
     #team-custom-mobile{
