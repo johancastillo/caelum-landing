@@ -16,34 +16,33 @@
     text-decoration: none;
   }
   
-  div.scrollmenu a:hover {
-    background-color: #777;
-  }
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+  
+.scrollmenu .card{
+  display: inline-block;
+  word-wrap: break-word;
+  width: 100%;
+  height: auto !important;
+  white-space: initial;
+}
   
   
-  .scrollmenu .card{
-    display: inline-block;
-    word-wrap: break-word;
-    width: 79vw;
-    height: auto !important;
-    white-space: initial;
-  }
-  
-  
-  /* Desktop */
-  .slider-desktop{
-  
-    height: 844px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-  
-    display: flex;
-    margin: auto 0;
-    flex-direction: column;
-  
-    /*Scroll effect */
-    scroll-behavior: smooth;
-  }
+/* Desktop */
+.slider-desktop{
+
+  height: 844px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  display: flex;
+  margin: auto 0;
+  flex-direction: column;
+
+  /*Scroll effect */
+  scroll-behavior: smooth;
+}
   
   .box-images{
     display: flex;

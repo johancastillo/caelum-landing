@@ -40,6 +40,10 @@
     font-family: "Bariol Regular";
 }
 
+body{
+    overflow-x: hidden !important;
+}
+
 h1, h2, h3, h4, h5{
     font-family: "Bariol Bold";
 }
