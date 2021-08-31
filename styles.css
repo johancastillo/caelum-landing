@@ -101,6 +101,10 @@ b{
     width: 180px;
 }
 
+.navbar-desktop .contact-box b{
+    color: #2ea5d0;
+}
+
 /* 
 #####################
 # Header Components #
@@ -301,15 +305,12 @@ b{
 .vision-section-mobile{
     display: none;
 }
-<<<<<<< HEAD
-=======
 
 .vision-section-mobile h3{
     color: #01a6cf;
     font-size: 40px;
     margin-bottom: 18px;
 }
->>>>>>> gh-pages
 
 /* 
 ####################
@@ -386,7 +387,7 @@ footer .box{
 
 footer .text{
     color: #fff !important;
-    text-align: left;
+    text-align: center;
 }
 
 
