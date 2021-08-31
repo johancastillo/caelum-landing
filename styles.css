@@ -368,6 +368,25 @@ b{
     height: auto;
 }
 
+
+/* 
+##########
+# Footer #
+##########
+*/
+footer .box{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+footer .text{
+    color: #fff !important;
+    text-align: left;
+}
+
+
 /* 
 #################
 # Media Queries #
@@ -454,6 +473,11 @@ b{
     .image-gallery .content img{
         width: 80%;
         height: auto;
+    }
+
+
+    footer .logo{
+        margin-bottom: 40px;
     }
 
 }
