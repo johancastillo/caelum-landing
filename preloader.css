@@ -1,14 +1,14 @@
 .preloader-box{
-    width:100%;
-    height:100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: #ffffff;
-    z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 10029;
+  position: fixed;
+  background-color: #ffffff;
 }
 
 

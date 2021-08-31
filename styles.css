@@ -40,6 +40,10 @@
     font-family: "Bariol Regular";
 }
 
+body{
+    overflow-x: hidden !important;
+}
+
 h1, h2, h3, h4, h5{
     font-family: "Bariol Bold";
 }
@@ -55,11 +59,46 @@ b{
 */
 .navbar-mobile{
     display: none;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .navbar-desktop{
     display: block;
     background: #fff !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navigation-box hr{
+    border: 1px solid #78797d;
+    width: 90%;
+}
+
+.navigation-box .first-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-box .logo img{
+    width: 180px;
 }
 
 /* 
@@ -70,6 +109,7 @@ b{
 
 .header{
     margin-bottom: 20px;
+    margin-top: 158px;
 }
 
 .banner-video-desktop{
@@ -86,6 +126,7 @@ b{
 
 .box-video .resource{
     position: absolute;
+    left: 0;
     bottom: 0;
 }
 
@@ -212,6 +253,18 @@ b{
 
 
 /* 
+################
+# Team Section #
+################
+*/
+
+
+.team h4{
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+/* 
 ##################
 # Vision Section #
 ##################
@@ -234,6 +287,7 @@ b{
     height: 100%;
     align-items: flex-start;
     height: 515px;
+    max-width: 583px;
 }
 
 .vision-section-desktop .content h3{
@@ -247,6 +301,15 @@ b{
 .vision-section-mobile{
     display: none;
 }
+<<<<<<< HEAD
+=======
+
+.vision-section-mobile h3{
+    color: #01a6cf;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+>>>>>>> gh-pages
 
 /* 
 ####################
@@ -303,6 +366,29 @@ b{
     align-items: center;
 }
 
+.image-gallery .content img{
+    width: 400px;
+    height: auto;
+}
+
+
+/* 
+##########
+# Footer #
+##########
+*/
+footer .box{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+footer .text{
+    color: #fff !important;
+    text-align: left;
+}
+
 
 /* 
 #################
@@ -334,6 +420,10 @@ b{
 
 .navbar-desktop{
     display: none;
+}
+
+.header {
+    margin-top: 68px;
 }
 
 
@@ -377,6 +467,24 @@ b{
         display: block;
     }
 
+<<<<<<< HEAD
+=======
+    .skills-section .item1, .skills-section .item2, .skills-section .item3 {
+        padding: 0 50px;
+    }
+
+
+
+    .image-gallery .content img{
+        width: 80%;
+        height: auto;
+    }
+
+
+    footer .logo{
+        margin-bottom: 40px;
+    }
+>>>>>>> gh-pages
 
 }
 
