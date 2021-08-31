@@ -28,7 +28,7 @@ addEventListener("scroll", () => {
     
     let scroll = window.scrollY
 
-    if(scroll > 430){
+    if(scroll > 500){
         imgAbout.classList.add("animate__fadeInRight")
     }else{
         imgAbout.classList.remove("animate__fadeInRight")
